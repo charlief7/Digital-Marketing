@@ -1,0 +1,147 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Digital Marketing Services — Charlie</title>
+  <meta name="description" content="Digital marketing services: paid ads, SEO, email, CRO. Results-focused freelance marketing.">
+  <style>
+    :root{--accent:#0b66ff;--dark:#111;--muted:#666}
+    body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;margin:0;color:var(--dark);line-height:1.45}
+    header{padding:28px 20px;display:flex;justify-content:space-between;align-items:center}
+    a.logo{font-weight:700;text-decoration:none;color:var(--dark)}
+    nav a{margin-left:18px;text-decoration:none;color:var(--muted);font-size:14px}
+    .container{max-width:1100px;margin:0 auto;padding:0 20px}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;padding:36px 0}
+    .hero h1{font-size:28px;margin:0}
+    .hero p{margin:8px 0 0;color:var(--muted)}
+    .cta{margin-top:14px}
+    .btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;display:inline-block}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:28px 0}
+    .card{border:1px solid #eee;padding:18px;border-radius:8px}
+    .card h3{margin:0 0 8px}
+    .case{display:flex;gap:14px;align-items:flex-start}
+    footer{border-top:1px solid #eee;padding:18px 0;margin-top:28px;color:var(--muted)}
+    @media(max-width:880px){.grid{grid-template-columns:repeat(2,1fr)}.hero{padding:24px 0}}
+    @media(max-width:640px){.grid{grid-template-columns:1fr}nav{display:none}}
+  </style>
+</head>
+<body>
+  <header class="container">
+    <a class="logo" href="#">Charlie — Marketing</a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <main class="container">
+    <section class="hero" id="home">
+      <div>
+        <h1>Digital marketing services that get measurable results</h1>
+        <p>Paid ads, SEO, email, and conversion rate work built for growth. I focus on metrics you can act on: CAC, LTV, ROAS.</p>
+        <div class="cta">
+          <a class="btn" href="#contact">Book a strategy call</a>
+          <a style="margin-left:10px;color:var(--muted);text-decoration:none" href="#work">See case studies</a>
+        </div>
+      </div>
+    </section><section id="services">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Paid Ads (PPC)</h3>
+      <p>Google & Meta campaigns: audit, setup, optimization, scaling. Monthly reports with clear action items.</p>
+    </div>
+    <div class="card">
+      <h3>SEO & Content</h3>
+      <p>Technical SEO, on-page optimizations, content briefs tied to traffic and conversions.</p>
+    </div>
+    <div class="card">
+      <h3>Email & Retention</h3>
+      <p>Lifecycle campaigns, flows, segmentation and A/B tests that improve retention and ARPU.</p>
+  </div>
+  </div>
+</section>
+
+<section id="work">
+  <h2>Selected results</h2>
+  <div class="card">
+    <div class="case">
+      <div style="flex:1">
+        <strong>e‑commerce growth</strong>
+        <p style="margin:6px 0;color:var(--muted)">Scaled ROAS from 2.1 to 4.6 in 90 days via creative testing and bid automation.</p>
+        <ul style="margin:6px 0 0;padding-left:18px;color:var(--muted)">
+          <li>Channel: Google Shopping & Meta</li>
+          <li>Work: creative refresh, ROAS-based scaling</li>
+        </ul>
+      </div>
+      <div style="width:140px;text-align:right;color:var(--muted)">Case study available on request</div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:12px">
+    <div class="case">
+      <div style="flex:1">
+        <strong>SaaS trial conversion</strong>
+        <p style="margin:6px 0;color:var(--muted)">Improved trial-to-paid by 32% with onboarding emails and targeted ads.</p>
+        <ul style="margin:6px 0 0;padding-left:18px;color:var(--muted)">
+          <li>Channel: Organic + Paid</li>
+          <li>Work: funnels, copy, email series</li>
+        </ul>
+      </div>
+      <div style="width:140px;text-align:right;color:var(--muted)">Metrics & deck on request</div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Pricing</h2>
+  <p style="color:var(--muted);margin:6px 0">You can pick hourly, project, or retainer. Typical ranges shown below.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>Starter</h3>
+      <p>$900/month — Basic setup + 1 channel management (ads or email). Ideal for early-stage stores.</p>
+    </div>
+    <div class="card">
+      <h3>Growth</h3>
+      <p>$2,500/month — 2 channels, CRO, and monthly strategy. Best for steady growth brands.</p>
+    </div>
+    <div class="card">
+      <h3>Retainer</h3>
+      <p>$5,000+/month — Full channel management, A/B testing roadmap, weekly calls.</p>
+    </div>
+  </div>
+  <p style="color:var(--muted);font-size:13px">Hourly rates also available: $50–$150/hr depending on scope and experience.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p style="color:var(--muted)">Tell me about your goal, budget, and timelines. I’ll reply within 48 hours.</p>
+  <form id="contactForm" action="#" onsubmit="handleSubmit(event)" style="max-width:640px">
+    <label style="display:block;margin-top:8px">Name</label>
+    <input required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px" name="name">
+    <label style="display:block;margin-top:8px">Email</label>
+    <input type="email" required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px" name="email">
+    <label style="display:block;margin-top:8px">Message (goal, budget)</label>
+    <textarea required style="width:100%;padding:8px;border:1px solid #ddd;border-radius:6px" name="message" rows="4"></textarea>
+    <div style="margin-top:12px">
+      <button class="btn" type="submit">Send message</button>
+    </div>
+  </form>
+</section>
+
+  </main>  <footer class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+      <div>© Charlie — Digital marketing services</div>
+      <div style="font-size:13px;color:var(--muted)">Built for lead generation. Privacy | Terms</div>
+    </div>
+  </footer>  <script>
+    function handleSubmit(e){
+      e.preventDefault();
+      const f = e.target;
+      alert('Thanks — message sent. I will reply within 48 hours.');
+      f.reset();
+    }
+  </script></body>
+</html>
